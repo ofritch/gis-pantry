@@ -57,7 +57,7 @@ lyr_fc = arcpy.mapping.Layer("test_lyr")
 
 #Definition Query fields
 issuedate = 'ISSUE_DATE'
-expirydate = 'EXPIRY_DATE'	
+expirydate = 'CURRENT_EXPIRY_DATE_CALC'	#June 01 2020 O. Fritch -- changed from 'EXPIRY_DATE field to correctly handle permits that have been extended pbeyond their original expiry date
 
 
 #If statement testing which quarter folks want
